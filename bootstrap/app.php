@@ -41,6 +41,24 @@ $app->singleton(
     App\Exceptions\Handler::class
 );
 
+$storage_path = env('APP_STORAGE_PATH', base_path().'/storage');
+$app->useStoragePath($storage_path);
+
+if (! is_dir($storage_path)) {
+    mkdir($storage_path);
+    mkdir($storage_path.'/app');
+    mkdir($storage_path.'/app/public');
+    mkdir($storage_path.'/debugbar');
+    mkdir($storage_path.'/framework');
+    mkdir($storage_path.'/framework/cache');
+    mkdir($storage_path.'/framework/cache/data');
+    mkdir($storage_path.'/framework/cache/data/stache');
+    mkdir($storage_path.'/framework/cache/sessions');
+    mkdir($storage_path.'/framework/cache/testing');
+    mkdir($storage_path.'/logs');
+    mkdir($storage_path.'/statamic');
+}
+
 /*
 |--------------------------------------------------------------------------
 | Return The Application
