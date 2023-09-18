@@ -1,10 +1,13 @@
 tree:
   -
+    id: da2b7195-59a8-4a69-a5bb-1e87dad33974
     title: Shop
     url: /shop
   -
+    id: 967e7a7b-b2b7-44f1-9f9b-22a397b4abcf
     title: Vendor
     url: /vendor/company-123
   -
+    id: bf9eeff9-7afb-417a-926f-8e2e45696a71
     title: Docs
-    url: 'https://statamic-shopify.jackwhiting.co.uk'
+    url: 'https://statamic-shopify-docs.vercel.app'
