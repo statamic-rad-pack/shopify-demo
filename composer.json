@@ -15,7 +15,7 @@
         "laravel/sanctum": "^3.2",
         "laravel/tinker": "^2.8",
         "statamic/cms": "^4.0",
-        "statamic-rad-pack/shopify": "*"
+        "statamic-rad-pack/shopify": "2.0.0-beta1"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.8.1",
@@ -75,4 +75,5 @@
         "post-update-cmd": [
             "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
         ]
-    }}
+    }
+}
