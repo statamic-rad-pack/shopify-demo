@@ -23,7 +23,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
                     </svg>
 
-                    <span class="ml-2">(<span data-ss-cart-count>0</span> Items)</span>
+                    <span class="ml-2">(<span x-data x-text="Alpine.store('statamic.shopify.cart').lineItems.reduce((acc, value) => acc + value.qty, 0)">0</span> Items)</span>
                 </a>
             </div>
         </div>
