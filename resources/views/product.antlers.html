@@ -23,13 +23,13 @@
         <div class="grid-cell" x-data='shopifyProduct({{ options | to_json }}, {{ variants | to_json }})'>
             <div class="mb-8 prose">{{ content }}</div>
 
-            {{ if types }}
+            {{ if type }}
                 <div class="flex py-3 text-sm border-t border-b">
                     <span class="mr-3 font-medium">Types</span>
                     <span>
-                    {{ types }}
+                    {{ type }}
                         <a href="{{ url }}" class="hover:text-indigo-700">{{ title | ucfirst }}</a>
-                    {{ /types }}
+                    {{ /type }}
                     </span>
                 </div>
             {{ /if }}
