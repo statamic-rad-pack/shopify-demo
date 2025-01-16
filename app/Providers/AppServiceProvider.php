@@ -12,7 +12,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        app()->useBootstrapPath('/tmp/bootstrap');
+        $this->app->instance('path.bootstrap', '/tmp/bootstrap');
     }
 
     /**
