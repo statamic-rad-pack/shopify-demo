@@ -9,13 +9,13 @@
     ],
     "type": "project",
     "require": {
-        "php": "^8.1",
+        "php": "^8.2",
         "guzzlehttp/guzzle": "^7.2",
-        "laravel/framework": "^10.8",
-        "laravel/sanctum": "^3.2",
+        "laravel/framework": "^11.7",
+        "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.8",
-        "statamic/cms": "^4.0",
-        "statamic-rad-pack/shopify": "2.0.0-beta1"
+        "statamic/cms": "^5.0",
+        "statamic-rad-pack/shopify": "^5.0"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.8.1",
@@ -23,7 +23,7 @@
         "laravel/pint": "^1.0",
         "laravel/sail": "^1.18",
         "mockery/mockery": "^1.4.4",
-        "nunomaduro/collision": "^7.0",
+        "nunomaduro/collision": "^8.1",
         "phpunit/phpunit": "^10.1",
         "spatie/laravel-ignition": "^2.0"
     },

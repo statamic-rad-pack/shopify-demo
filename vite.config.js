@@ -3,6 +3,9 @@ import laravel from 'laravel-vite-plugin';
 // import vue2 from '@vitejs/plugin-vue2';
 
 export default defineConfig({
+    build: {
+        minify: false,
+    },
     plugins: [
         laravel({
             input: [
